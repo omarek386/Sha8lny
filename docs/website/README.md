@@ -14,19 +14,19 @@ The B2B Portal is a single-page application (SPA) built on Vite, React, and Type
 
 ```mermaid
 graph TD
-    subgraph Client [Vite + React SPA Frontend]
+    subgraph Client ["Vite + React SPA Frontend"]
         UI[shadcn/ui + Tailwind CSS Views]
         R[React Router DOM]
         QC[TanStack React Query Cache]
         Ctx[ProfileContext / Session State]
     end
 
-    subgraph ServiceIntegrations [Authentication & Data Services]
+    subgraph ServiceIntegrations ["Authentication & Data Services"]
         SA[Supabase Auth Services]
         SDB[Supabase Client-Side ORM]
     end
 
-    subgraph FutureBackend [Target Enterprise Backend]
+    subgraph FutureBackend ["Target Enterprise Backend"]
         NET[ASP.NET Core Web API 9.0]
         SQL[(SQL Server)]
     end

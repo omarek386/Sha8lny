@@ -20,12 +20,12 @@ graph TD
     classDef service fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
     classDef future fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,stroke-dasharray: 5 5;
 
-    subgraph Clients [Client Application Layer]
+    subgraph Clients ["Client Application Layer"]
         Mobile["📱 Mobile App (Flutter & Dart)<br/>• Target Audience: Students<br/>• Clean Architecture (Domain, Data, Presentation)"]:::mobile
         Web["💻 Web Portal (React, Vite, TS)<br/>• Target Audience: Companies & Admins<br/>• shadcn/ui & Tailwind Views"]:::web
     end
 
-    subgraph CloudServices [Active Backend Integration (Supabase & Firebase)]
+    subgraph CloudServices ["Active Backend Integration (Supabase & Firebase)"]
         SupaClient["Supabase API Gateway"]:::service
         DB[("PostgreSQL Database<br/>(Schemas: Users, Opps, Applications, Payments)")]:::service
         Storage[("Supabase Storage Buckets<br/>(Resumes, Deliverables, Logos)")]:::service
@@ -34,7 +34,7 @@ graph TD
         FireAuth["Firebase Auth Broker<br/>(Toggleable Auth Provider)"]:::service
     end
 
-    subgraph EnterpriseBack [Future Enterprise Target Architecture]
+    subgraph EnterpriseBack ["Future Enterprise Target Architecture"]
         NET["ASP.NET Core Web API 9.0<br/>(EF Core, Custom JWT Policy Guards)"]:::future
         SignalR["SignalR Hubs<br/>(Bidirectional Realtime Communication)"]:::future
         SQLServer[("Microsoft SQL Server Database")]:::future
