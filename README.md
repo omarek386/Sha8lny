@@ -151,10 +151,11 @@ Navigate to the detailed technical documentation files to explore the deep-dive 
 
 ---
 
-## 🎥 Walkthroughs & Interactive Demos
+## 🎨 Figma Design & Interactive Demos
 
-To see the platform's systems and interfaces in action, explore the screen recordings and visual assets located in the [assets/](./assets/) directory:
+To explore the user interface design system, interactive prototypes, and system walkthroughs:
 
+- 📐 **Figma Design Board**: [Sha8lny Graduation Project (Figma)](https://www.figma.com/design/tOXUJHAmrTLI6GZHtJgUH3/Sha8lny-Graduation-Project%F0%9F%8E%93?m=auto&t=lqLwyf5c93H7MQTv-6)
 - 📱 **Mobile Application Walkthrough**: [walk throu the app.webm](./assets/walk%20throu%20the%20app.webm)
 - 💳 **First Run & Setup**: [app first run.webm](./assets/app%20first%20run.webm)
 - 📝 **Applying for Opportunities**: [apply on task.webm](./assets/apply%20on%20task.webm)
